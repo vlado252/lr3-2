@@ -1,10 +1,5 @@
-n = int(input("Введите количество школьников:"))
-k = int(input("Введите количество яблок: "))
-
-yabloki = k // n
-ostatok = k - yabloki*n
-
-
-print(yabloki)
-print ("По ", yabloki, "каждому школьнику.")
-print(ostatok, "яблок останется в корзине.")
+x = float(input("Введите первое число: "))
+y = float(input("Введите второе число: "))
+print("Наименьшее из двух:",y) if x > y else print("Наименьшее из двух:",x)
+if x == y:
+    print("Числа равны.")
